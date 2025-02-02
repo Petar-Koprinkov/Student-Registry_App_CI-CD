@@ -31,7 +31,7 @@ jobs:
       run: npm audit
 
 
-  build_tes:
+  build_test:
 
     runs-on: ubuntu-latest
     needs: security
